@@ -1,0 +1,6 @@
+c:\users\chris\documents\visual studio 2012\Projects\Findsmallest\Findsmallest\bin\Debug\Findsmallest.exe.config
+c:\users\chris\documents\visual studio 2012\Projects\Findsmallest\Findsmallest\bin\Debug\Findsmallest.exe
+c:\users\chris\documents\visual studio 2012\Projects\Findsmallest\Findsmallest\bin\Debug\Findsmallest.pdb
+c:\users\chris\documents\visual studio 2012\Projects\Findsmallest\Findsmallest\obj\Debug\Findsmallest.exe
+c:\users\chris\documents\visual studio 2012\Projects\Findsmallest\Findsmallest\obj\Debug\Findsmallest.pdb
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\Findsmallest\Findsmallest\obj\Debug\Findsmallest.csprojResolveAssemblyReference.cache
