@@ -39,6 +39,11 @@ namespace Findsmallest
             return smallestSoFar;
         }
 
+        private static void giveResult(Task<int> task)
+        {
+            Console.WriteLine(task.Result);
+        }
+
         static void Main(string[] args)
         {
             List < Task<int> > tasklist= new List<Task<int>>();
@@ -48,18 +53,15 @@ namespace Findsmallest
                 //Thread t1 = new Thread(()=> FindSmallest(data));
                 Task<int> task1 = Task<int>.Factory.StartNew(() => FindSmallest(data));
                 //Task.Factory.StartNew(() => FindSmallest(data));
-                tasklist.Add(task1);
-                
+                //tasklist.Add(task1);
+                Task.Factory.StartNew(() => giveResult(task1));
+
                 //Console.WriteLine(String.Join(", ", data) + ": " + smallestSoFar);
             }
             
                 foreach (Task<int> task in tasklist)
                 {
-                        if (task.Result != null)
-                        {
-                            Console.WriteLine(task.Result);
-                           
-                        }
+                     Console.WriteLine(task.Result);
                 }
             
             
